@@ -39,7 +39,7 @@ global.namaowner = "DrayXD"
 global.owner = "2348120055226"
 global.namabot = "Zeno-V6"
 global.botname = "Zeno-V6"
-global.simbol = "⌑"
+global.simbol = "."
 global.autoJoin = false
 global.domain = "-"
 global.apikey = "-"
@@ -106,3 +106,4 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 })
+PREFIX: "."
